@@ -11,9 +11,13 @@ This project could be extended to any pre-trained machine learning model, such a
 * Run `make install` to install the necessary dependencies
 
 * On a high level you can test the running the Flask app `app.py`
+
       1. Standalone:  `python app.py`
+      
       2. Run in Docker:  `./run_docker.sh`
+      
       3. Run in Kubernetes:  `./run_kubernetes.sh`
+      
 
 ## Detailed steps
 * Create Flask app in Container using the Dockerfile
