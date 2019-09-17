@@ -10,3 +10,29 @@
 [20.35373177134412]
 172.17.0.1 - - [17/Sep/2019 15:03:51] "POST /predict HTTP/1.1" 200 -
 
+
+## Image push 
+
+
+Docker ID and Image: avishkarn/cdend-uda-avish-proj5:latest
+Password:
+WARNING! Your password will be stored unencrypted in /home/ubuntu/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+The push refers to repository [docker.io/avishkarn/cdend-uda-avish-proj5]
+e7da3f804163: Pushed
+a87cdb32167c: Pushed
+f832e1a5a603: Pushed
+799a7872c8c7: Mounted from library/python
+715450468940: Mounted from library/python
+c9d608035aef: Mounted from library/python
+bb9c02680a15: Mounted from library/python
+a637c551a0da: Mounted from library/python
+2c8d31157b81: Mounted from library/python
+7b76d801397d: Mounted from library/python
+f32868cde90b: Mounted from library/python
+0db06dff9d9a: Mounted from library/python
+latest: digest: sha256:0dad433b21cbd5daa6d663d5c42948c40e415f8ffb482e683ca9f66404dc5f06 size: 2848
+
