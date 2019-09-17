@@ -18,14 +18,22 @@ This project could be extended to any pre-trained machine learning model, such a
 ## Detailed steps
 * Create Flask app in Container using the Dockerfile
 * Setup and Configure Docker locally  - 
+
      `sudo docker build --tag=cdend-uda-avish-proj5 .`
+     
      `sudo docker image ls`
-     `sudo docker run -p 8080:80 cdend-uda-avish-proj5'
+     
+     `sudo docker run -p 8080:80 cdend-uda-avish-proj5`
+     
 
 * Setup and Configure Kubernetes locally
+
      `sudo kubectl run $dockerpath --image=avishkarn/cdend-uda-avish-proj5:latest --port=80`
+     
      `sudo kubectl get pod`
+     
      `sudo kubectl expose deployment cdend-uda-avish-proj5 --type=LoadBalancer --port 80`
+     
      `minikube service cdend-uda-avish-proj5`
 
 ### Project Files & Tasks
